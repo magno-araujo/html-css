@@ -1,4 +1,40 @@
 @charset "UTF-8";
 
 /*todas as demais mídias*/
+/*typical device brakepoints
+pequenas telas
+celular: de 600px ate 768px
+tablet: de 769px ate 992px
+desktop: de 993px até 1200px
+grandes telas: acima de 1200px
+
+
+
+*/
+
+@media print{ /*impressão*/
+
+}
+
+@media screen and (min-width:768px) and (max-widht:992px) { /*tablet*/
+ 
+    body{
+        background-image:url(../imagens/back-tablet.jpg);
+    }
+} 
+
+@media screen and (min-width:992px) and (max-width:1200px) {  /*desktop*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+}
+
+@media screen and(min-width:1200px) { /*grandes telas*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    
+}
+
+
 
